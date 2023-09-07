@@ -1,14 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int number = 23;
+        int amount = 20;
+        if(amount<30){
+            System.out.println("Less than 30");
+        }
+        else{
+            System.out.println("More than 30");
+        }
 
-        while(number<=35){
-            System.out.print(number + " ");
-            number+=2;
-        }
-        System.out.println(" ");
-        for (int i = 0; i < 10 ; i++) {
-            System.out.print(i + " ");
-        }
+        //Shorthand with ternary operator
+        String result = ( amount > 30 ) ? "More than 30" : "Less than 30";
+        System.out.println( result );
     }
 }
