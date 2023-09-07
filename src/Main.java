@@ -13,13 +13,13 @@ public class Main {
         double aDouble = 3.4553; // 64 bits
 
         char aChar = 'b'; // 16 bits
-        System.out.println(aBool);
-        System.out.println(aByte);
-        System.out.println(aShort);
-        System.out.println(aValue);
-        System.out.println(aLong);
-        System.out.println(aFloat);
-        System.out.println(aDouble);
-        System.out.println(aChar);
+
+        String text = "Hi";
+        String blank = " ";
+        String moreText = "There";
+        String total = text + blank + moreText;
+        System.out.println(text + blank + moreText);
+        System.out.println(total);
+        System.out.println(total.length());
     }
 }
