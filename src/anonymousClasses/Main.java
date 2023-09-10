@@ -7,7 +7,7 @@ class Computer{
 }
 
 interface Phone{
-    public void call();
+    void call();
 }
 public class Main {
     public static void main(String[] args) {
