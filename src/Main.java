@@ -1,15 +1,30 @@
+class Car{
+    String brand;
+    String model;
+    int year;
+
+    public Car(String brand, String model,int year){
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+
+    public void displayInfo(){
+        System.out.println("Brand: "+ brand);
+        System.out.println("Model: "+ model);
+        System.out.println("Year: "+year);
+    }
+}
+
 public class Main {
     public static void main(String[] args) {
-        int amount = 20;
-        if(amount<30){
-            System.out.println("Less than 30");
-        }
-        else{
-            System.out.println("More than 30");
-        }
+        Car car1 = new Car("Toyota","Camry",2022);
+        Car car2 = new Car("Honda","Civic", 2021);
 
-        //Shorthand with ternary operator
-        String result = ( amount > 30 ) ? "More than 30" : "Less than 30";
-        System.out.println( result );
+        System.out.println("Car1: ");
+        car1.displayInfo();
+
+        System.out.println("Car2: ");
+        car2.displayInfo();
     }
 }
