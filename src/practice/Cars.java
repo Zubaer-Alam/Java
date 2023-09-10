@@ -1,3 +1,5 @@
+package practice;
+
 class Car extends Factory{
     String brand;
     String model;
