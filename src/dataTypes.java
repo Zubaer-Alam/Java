@@ -1,5 +1,5 @@
 public class dataTypes {
-    public static void dataTypes() {
+    public static void main(String[] args) {
         //8 primitive dataTypes:
 
         boolean aBool = true; // 1 bit
