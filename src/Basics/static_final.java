@@ -1,3 +1,5 @@
+package Basics;
+
 class Student {
     public static final int MY_CONSTANT = 8;
     public String name;

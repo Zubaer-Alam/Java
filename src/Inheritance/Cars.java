@@ -1,4 +1,4 @@
-package practice;
+package Inheritance;
 
 class Car extends Factory{
     String brand;

@@ -1,4 +1,4 @@
-package practice;
+package Inheritance;
 
 public class Factory {
     public void design(){

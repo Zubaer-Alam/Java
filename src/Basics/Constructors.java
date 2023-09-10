@@ -1,3 +1,5 @@
+package Basics;
+
 class Program{
     int value;
     String text;

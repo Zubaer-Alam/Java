@@ -1,6 +1,8 @@
+package Basics;
+
 public class dataTypes {
     public static void main(String[] args) {
-        //8 primitive dataTypes:
+        //8 primitive Basics.dataTypes:
 
         boolean aBool = true; // 1 bit
 

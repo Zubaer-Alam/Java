@@ -1,4 +1,4 @@
-package practice;
+package Inheritance;
 
 public class Main {
     /*Access modifiers:
