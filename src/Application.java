@@ -6,18 +6,21 @@ class Student {
     public static String studentClass;
 
     public void studentName(){
-        System.out.println(name);
+        System.out.println(name+" is enrolled in "+studentClass);
+        // Non-static methods can access static variables
     }
 
     // Static methods can access static variables only.
     public static void classInfo(){
         System.out.println(studentClass);
-        //System.out.println(name);  will not work.
+
+        //System.out.println(name);
+        //will not work.
     }
 }
 public class Application{
     public static void main(String[] args) {
-        Student.studentClass = "Static variables";
+        Student.studentClass = "Web development";
         Student.classInfo();
         System.out.println(Student.studentClass);
 
