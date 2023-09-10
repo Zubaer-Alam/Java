@@ -3,7 +3,7 @@ import org.w3c.dom.ls.LSInput;
 import java.util.Scanner;
 
 public class Loops {
-    public static void loops(){
+    public static void main(String args[]){
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         int limit = input.nextInt();
@@ -12,7 +12,9 @@ public class Loops {
             System.out.print(number + " ");
             number+=2;
         }
+
         System.out.println(" ");
+        
         for (int i = 0; i < 10 ; i++) {
             System.out.print(i + " ");
         }
@@ -22,7 +24,12 @@ public class Loops {
         }
         //Outputs abc
         System.out.println("\n");
-        double aDouble = input.nextDouble();
-        System.out.println(aDouble);
+
+        int value;
+        do{
+            System.out.println("Enter a number");
+            value = input.nextInt();
+        }while(value!=9);
+        System.out.println("you got 9");
     }
 }
