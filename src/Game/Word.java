@@ -23,7 +23,7 @@ public class Word {
         }
         return word.toString();
     }
-
+    // The function below iterates through "letters" array and checks if there is any null. If not any null, it means player has guessed all the letters of "selectedWord"
     public boolean isRight() {
         for (char letter : letters) {
             if (letter=='\u0000'){
@@ -33,14 +33,21 @@ public class Word {
         return true;
     }
 
-    public boolean guess(char letter) {
-        boolean guessedRight = false;
+    /*  The function below analyses a single char "input".
+        The for loop iterates through the letters of the word.
+
+        If "input" matches a letter at any index of  "selectedWord", then that letter gets pushed to that specific index of "letters" which was null before.
+
+        If the input doesn't match any letter of  "selectedWord", then false is returned by default, which in turn reduces the round counter by 1.
+    */
+    public boolean guess(char input) {
+        boolean isRight = false;
         for (int i = 0; i < selectedWord.length(); i++) {
-            if (letter == selectedWord.charAt(i)) {
-                letters[i] = letter;
-                guessedRight = true;
+            if (input == selectedWord.charAt(i)) {
+                letters[i] = input;
+                isRight = true;
             }
         }
-        return guessedRight;
+        return isRight;
     }
 }
