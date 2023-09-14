@@ -11,7 +11,7 @@ public class Word {
 
     public Word() {
         //selectedWord = randomWords[random.nextInt(randomWords.length)];
-        selectedWord = randomWords[0];
+        selectedWord = randomWords[random.nextInt(randomWords.length)];
         letters = new char[selectedWord.length()];
     }
 
@@ -24,11 +24,23 @@ public class Word {
         return word.toString();
     }
 
-    public void guess(char letter) {
+    public boolean isRight() {
+        for (char letter : letters) {
+            if (letter=='\u0000'){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean guess(char letter) {
+        boolean guessedRight = false;
         for (int i = 0; i < selectedWord.length(); i++) {
             if (letter == selectedWord.charAt(i)) {
                 letters[i] = letter;
+                guessedRight = true;
             }
         }
+        return guessedRight;
     }
 }
