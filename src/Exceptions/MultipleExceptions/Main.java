@@ -1,25 +1,18 @@
-package Exceptions;
+package Exceptions.MultipleExceptions;
 
 import java.io.IOException;
 import java.text.ParseException;
 
-class Exceptions {
-    public void start() throws ParseException, IOException {
-        //throw new IOException();
-        throw new ParseException("error",2);
-    }
-}
-
-public class MultipleExceptions {
+public class Main {
     public static void main(String[] args) {
-        Exceptions me = new Exceptions();
+        MultipleExceptions me = new MultipleExceptions();
         try {
             me.start();
         } catch (ParseException | IOException e) {
             System.out.println("Incorrect Format");
         }
 
-        Exceptions me2 = new Exceptions();
+        MultipleExceptions me2 = new MultipleExceptions();
         try {
             me2.start();
         } catch (Exception e) {
