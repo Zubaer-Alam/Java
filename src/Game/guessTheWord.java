@@ -2,7 +2,7 @@ package Game;
 
 public class guessTheWord {
     private boolean play = false;
-    private Words randomWord = new Words();
+    private Words word = new Words();
     public void start(){
 
         do {
@@ -12,7 +12,7 @@ public class guessTheWord {
         }while (play);
     }
     void showWord(){
-        System.out.println(randomWord);
+        System.out.println(word);
     }
     void getInput(){
         System.out.println("getInput");
