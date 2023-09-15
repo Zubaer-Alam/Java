@@ -2,6 +2,7 @@ package Lists;
 
 import java.util.ArrayList;
 
+
 // ArrayList is a dynamic array of arrays. They look like [1][2][3][4].
 // I can just keep adding on arrayList.
 // Adding items to the beginning or the ending of the List is a bit slow.
