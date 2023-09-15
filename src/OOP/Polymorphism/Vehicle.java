@@ -1,4 +1,4 @@
-package Polymorphism;
+package OOP.Polymorphism;
 
 public class Vehicle {
     public void design(){

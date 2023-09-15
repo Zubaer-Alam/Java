@@ -1,4 +1,4 @@
-package Inheritance;
+package OOP.Inheritance;
 
 class Car extends Factory{
     String brand;

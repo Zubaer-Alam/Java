@@ -1,4 +1,4 @@
-package AbstractClasses;
+package OOP.AbstractClasses;
 
 public abstract class Vehicle {
     private String engine;

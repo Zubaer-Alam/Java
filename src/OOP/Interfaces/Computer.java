@@ -1,4 +1,4 @@
-package Interfaces;
+package OOP.Interfaces;
 
 public class Computer implements Information {
     private int serialNumber = 170042051;

@@ -8,13 +8,13 @@ Concepts Learned:
   5. Constructors and Objects.
   6. Static Variables and Methods.
   7. Access Modifiers.
-  8. Inheritance.
-  9. Polymorphism.
-  10. Encapsulation.
+  8. OOP.Inheritance.
+  9. OOP.Polymorphism.
+  10. OOP.Encapsulation.
   11. Casting.
-  12. Interfaces.
+  12. OOP.Interfaces.
   13. Anonymous Classes.
-  14. Scanner class.
+  14. Basics.Scanner class.
   15. StringBuilder Class.
 
 

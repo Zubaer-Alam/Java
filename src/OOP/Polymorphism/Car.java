@@ -1,4 +1,4 @@
-package Polymorphism;
+package OOP.Polymorphism;
 
 public class Car extends Vehicle{
     @Override

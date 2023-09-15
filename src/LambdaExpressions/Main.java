@@ -1,6 +1,6 @@
 package LambdaExpressions;
 
-// Interfaces with just one method are called Functional Interfaces.
+// OOP.Interfaces with just one method are called Functional OOP.Interfaces.
 interface FunctionalInterface {
     int start(int value);
 }
@@ -29,7 +29,7 @@ public class Main {
         System.out.println();
 
         // Lambda Expression
-        // Lambda Expressions are always associated with Functional Interfaces.
+        // Lambda Expressions are always associated with Functional OOP.Interfaces.
         car.drive((int value) -> {
             System.out.println("Start Driving with Lambda");
             return 20;

@@ -1,4 +1,4 @@
-package Interfaces;
+package OOP.Interfaces;
 
 public class Vehicle implements Information{
     private String type;

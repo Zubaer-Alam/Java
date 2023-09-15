@@ -1,4 +1,4 @@
-package InnerClasses;
+package OOP.InnerClasses;
 
 public class Machine {
     private int id;

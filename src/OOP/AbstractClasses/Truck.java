@@ -1,4 +1,4 @@
-package AbstractClasses;
+package OOP.AbstractClasses;
 
 public class Truck extends Vehicle{
     @Override

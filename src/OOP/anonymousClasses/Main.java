@@ -1,4 +1,4 @@
-package anonymousClasses;
+package OOP.anonymousClasses;
 
 class Computer{
     public void shutDown(){
