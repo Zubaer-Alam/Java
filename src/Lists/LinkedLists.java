@@ -6,6 +6,7 @@ import java.util.LinkedList;
 // They look like: [0]->[1]->[2]->[3]->[4]....
 // Linked Lists become handy if you want to add something to the beginning or the middle of the list.
 
+
 public class LinkedLists {
     public static void main(String[] args) {
         LinkedList<Integer> linkedList = new LinkedList<>();
