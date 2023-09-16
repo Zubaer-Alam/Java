@@ -1,4 +1,4 @@
-package Multithreading.ThreadPools;
+package Multithreading;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -24,7 +24,7 @@ class Tasks implements Runnable {
     }
 }
 
-public class Main {
+public class ThreadPools {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newFixedThreadPool(2);
         for (int i = 1; i < 6; i++){
